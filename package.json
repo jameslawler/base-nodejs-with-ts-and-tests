@@ -1,0 +1,19 @@
+{
+  "name": "base-nodejs-with-ts-and-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.1",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.13",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}
